@@ -7,7 +7,7 @@
 #Declase String
   str=''
 #enumerate
-  >>> elements = ('foo', 'bar', 'baz')
+  elements = ('foo', 'bar', 'baz')
   >>> for elem in elements:
   ...     print elem
   ... 
