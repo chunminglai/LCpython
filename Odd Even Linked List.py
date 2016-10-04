@@ -23,3 +23,6 @@ class Solution(object):
         odd.next = evenHead
         
         return head
+#思路是一次處理兩個, 用odd.next = even.next把odd的接起來
+#然後把even.next = odd.next把even的接起來
+#最後把odd.next指到evenHead
