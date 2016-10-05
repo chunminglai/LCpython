@@ -27,4 +27,12 @@ class Solution(object):
                 pb = pb.next
             
         return pa
-        
+
+"""
+這題比較tricky一點, 就是pa不等於pb的時候（因為他們必定在某個地方會）
+假設pa 的長度是 a' + c
+pb的 b' + c
+pa到底的時候接到pb, pb到底的時候接到pa
+
+(a' + c + b') + c = (b' + c + a') + c
+"""
