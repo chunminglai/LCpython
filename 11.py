@@ -25,6 +25,9 @@ class Solution(object):
     -- 若移动i, 若height[i+1] <= height[i], 面积一定缩小; 但若height[i+1] > height[i], 面积则有可能增大.
     综上, 应该移动指向较低挡板的那个指针.
 */
+重點：len(list)
+function: max(), min()
+邊界條件：array中只有一個或沒有的時候為0
 來源
 https://discuss.leetcode.com/topic/35117/share-my-short-java-code-with-%E4%B8%AD%E6%96%87-explanation
 """
