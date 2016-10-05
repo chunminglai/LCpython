@@ -12,3 +12,12 @@ class Solution(object):
         """
         node.val = node.next.val
         node.next = node.next.next
+        
+"""
+實作linked list deleteNode的function, 
+比如說1->3->5->7
+然後給了5這個node
+要把5.val = 5.next.val
+然後5.next = 7.next這樣
+
+"""
